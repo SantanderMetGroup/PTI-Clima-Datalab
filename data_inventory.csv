@@ -1,6 +1,4 @@
 "label","access","kind","from","location"
-"REANALYSIS_ERA5-Land_Canarias_day","opendap","reanalysis","ADAPTECCA","/lustre/gmeteo/PTICLIMA/DATA/NCML/20250114/REANALYSIS/REANALYSIS_ERA5-Land_Canarias_day.ncml"
-"REANALYSIS_ERA5-Land_Iberia_day","opendap","reanalysis","ADAPTECCA","/lustre/gmeteo/PTICLIMA/DATA/NCML/20250114/REANALYSIS/REANALYSIS_ERA5-Land_Iberia_day.ncml"
 "OBSERVATIONS_AEMET-5KM-regular_Iberia_day","opendap","observations","ADAPTECCA","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/observations/OBSERVATIONS_AEMET-5KM-regular_Iberia_day.ncml"
 "OBSERVATIONS_CHELSA-W5E5v1.0_Canarias_day","opendap","observations","ADAPTECCA","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/observations/OBSERVATIONS_CHELSA-W5E5v1.0_Canarias_day.ncml"
 "OBSERVATIONS_CHELSA-W5E5v1.0_Iberia_day","opendap","observations","ADAPTECCA","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/observations/OBSERVATIONS_CHELSA-W5E5v1.0_Iberia_day.ncml"
@@ -117,3 +115,5 @@
 "CORDEX_output_EUR-11_SMHI_NCC-NorESM1-M_historical_SMHI-RCA4_v1_day","opendap","projections","ESGF","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/projections/spain/CORDEX_output_EUR-11_SMHI_NCC-NorESM1-M_historical_SMHI-RCA4_v1_day.ncml"
 "CORDEX_output_EUR-11_SMHI_NCC-NorESM1-M_rcp45_SMHI-RCA4_v1_day","opendap","projections","ESGF","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/projections/spain/CORDEX_output_EUR-11_SMHI_NCC-NorESM1-M_rcp45_SMHI-RCA4_v1_day.ncml"
 "CORDEX_output_EUR-11_SMHI_NCC-NorESM1-M_rcp85_SMHI-RCA4_v1_day","opendap","projections","ESGF","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/projections/spain/CORDEX_output_EUR-11_SMHI_NCC-NorESM1-M_rcp85_SMHI-RCA4_v1_day.ncml"
+"REANALYSIS_ERA5-Land_Canarias_day","opendap","reanalysis","ADAPTECCA","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/reanalysis/REANALYSIS_ERA5-Land_Canarias_day.ncml"
+"REANALYSIS_ERA5-Land_Iberia_day","opendap","reanalysis","ADAPTECCA","https://data.meteo.unican.es/thredds/dodsC/PTI-clima/reanalysis/REANALYSIS_ERA5-Land_Iberia_day.ncml"
