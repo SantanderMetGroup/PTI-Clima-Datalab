@@ -1,0 +1,23 @@
+{
+	"name": "PTI-Clima DataLab",
+	"build": {
+		"context": "..",
+		"dockerfile": "Dockerfile"
+	},
+	"postCreateCommand": "conda init",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/opt/conda/envs/datalab"
+			},
+			"extensions": [
+				"ms-python.python",
+				"donjayamanne.python-extension-pack",
+				"ms-toolsai.jupyter",
+				"GitHub.codespaces",
+				"ms-azuretools.vscode-docker",
+				"DavidAnson.vscode-markdownlint"
+			]
+		}
+	}
+}

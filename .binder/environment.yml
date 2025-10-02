@@ -1,3 +1,4 @@
+name: datalab
 channels:
   - conda-forge
   - nodefaults
