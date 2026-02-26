@@ -172,3 +172,4 @@ cython_debug/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+my_notebooks/
