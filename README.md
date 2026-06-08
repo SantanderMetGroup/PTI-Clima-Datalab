@@ -9,7 +9,8 @@ Datalab para acceder, procesar y analizar los datos climatológicos regionalizad
 
 Los cuadernos (Jupyter Notebooks) incluidos en este Datalab muestran ejemplos prácticos para utilizar, transformar y visualizar los conjuntos de datos disponibles en el [almacén de datos](https://pti.climate.ifca.es/data) de la Plataforma Estatal de Servicios Climáticos.
 
-Este trabajo está licenciado bajo una [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0).
+Salvo que se indique lo contrario, el contenido de este repositorio se distribuye bajo la
+licencia [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0).
 ![Licencia de Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 ![Banner PTI Clima](aux/Banner-logos-PTIClima-ProyectoServiciosAEMET.png)
