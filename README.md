@@ -13,3 +13,11 @@ Salvo que se indique lo contrario, el contenido de este repositorio se distribuy
 ![Licencia de Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 ![Banner PTI Clima](aux/Banner-logos-PTIClima-ProyectoServiciosAEMET.png)
+
+## Objetivo y Motivación
+
+El Datalab de la Plataforma Estatal de Servicios Climáticos ofrece un entorno interactivo de análisis diseñado para respaldar la **reproducibilidad**, la **transparencia** y la **reutilización** de los datos que sustentan la [Plataforma Estatal de Servicios Climáticos](https://pti-clima.csic.es/servicios-climaticos/).
+
+A través de una colección de **Jupyter Notebooks** y de un entorno de software preparado para trabajar con **Python** y **R**, permite acceder a datos climáticos regionalizados, procesarlos, visualizarlos y adaptar los análisis a nuevas necesidades. Gracias a esta aproximación, los datos, el código y las herramientas de análisis dejan de ser elementos aislados y pasan a formar parte de un flujo de trabajo común, trazable y reutilizable. De este modo, el Datalab de la Plataforma Estatal de Servicios facilita que los resultados del proyecto puedan ser utilizados, revisados y extendidos en beneficio de la sociedad.
+
+El Datalab puede utilizarse de distintas formas según las necesidades de cada persona usuaria. Un grupo limitado con autorización puede acceder a él mediante los **recursos computacionales del Instituto de Física de Cantabria (IFCA, CSIC-UC)**. Para el público general, también está disponible a través de **Binder**, con acceso directo desde este mismo repositorio. Además, quienes prefieran trabajar en su propio equipo pueden clonar el repositorio y ejecutar el entorno **localmente**.  La configuración del entorno está versionada junto con el código, lo que permite reproducir los análisis de forma consistente en distintos equipos e infraestructuras.
