@@ -25,3 +25,8 @@ dependencies:
   - r-visualizer
   - r-irkernel
   - r-geoprocessor
+  - r-downscaler
+  - r-convertr
+  - r-devtools
+  - r-climate4r.climdex
+  - r-drought4r
