@@ -1,0 +1,12 @@
+#!/bin/bash
+
+Rscript -e '
+options(repos="https://cloud.r-project.org")
+
+if (!requireNamespace("remotes", quietly=TRUE)) {
+  install.packages("remotes")
+}
+
+remotes::install_github("SantanderMetGroup/climate4R.indices")
+remotes::install_github("SantanderMetGroup/fireDanger")
+'

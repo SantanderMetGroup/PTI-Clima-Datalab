@@ -20,3 +20,11 @@ El Datalab de la Plataforma Estatal de Servicios Climáticos ofrece un entorno i
 A través de una colección de **Jupyter Notebooks** y de un entorno de software preparado para trabajar con **Python** y **R**, permite acceder a datos climáticos regionalizados, procesarlos, visualizarlos y adaptar los análisis a nuevas necesidades. Gracias a esta aproximación, los datos, el código y las herramientas de análisis dejan de ser elementos aislados y pasan a formar parte de un flujo de trabajo común, trazable y reutilizable. De este modo, el Datalab de la Plataforma Estatal de Servicios facilita que los resultados del proyecto puedan ser utilizados, revisados y extendidos en beneficio de la sociedad.
 
 El Datalab puede utilizarse de distintas formas según las necesidades de cada persona usuaria. Un grupo limitado con autorización puede acceder a él mediante los **recursos computacionales del Instituto de Física de Cantabria (IFCA, CSIC-UC)**. Para el público general, también está disponible a través de **Binder**, con acceso directo desde este mismo repositorio. Además, quienes prefieran trabajar en su propio equipo pueden clonar el repositorio y ejecutar el entorno **localmente**.  La configuración del entorno está versionada junto con el código, lo que permite reproducir los análisis de forma consistente en distintos equipos e infraestructuras.
+
+## Instalación local
+
+El entorno del DataLab puede ser recreado en un sistema local utilizando el fichero de dependencias que se incluye en el repositorio (`.binder/environment.yml`). Se recomienda el uso de [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) para instalar las dependencias utilizando el siguiente comando:
+
+```bash
+mamba create -n datalab -f .binder/environment.yml
+```
