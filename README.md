@@ -78,7 +78,7 @@ mamba activate datalab
 #### Instalar e iniciar JupyterLab en el entorno creado
 
 ```bash
-conda install -c conda-forge jupyterlab
+mamba install -c conda-forge jupyterlab
 jupyter lab
 ```
 
