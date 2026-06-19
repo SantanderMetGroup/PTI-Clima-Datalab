@@ -19,12 +19,64 @@ El Datalab de la Plataforma Estatal de Servicios Climáticos ofrece un entorno i
 
 A través de una colección de **Jupyter Notebooks** y de un entorno de software preparado para trabajar con **Python** y **R**, permite acceder a datos climáticos regionalizados, procesarlos, visualizarlos y adaptar los análisis a nuevas necesidades. Gracias a esta aproximación, los datos, el código y las herramientas de análisis dejan de ser elementos aislados y pasan a formar parte de un flujo de trabajo común, trazable y reutilizable. De este modo, el Datalab de la Plataforma Estatal de Servicios facilita que los resultados del proyecto puedan ser utilizados, revisados y extendidos en beneficio de la sociedad.
 
-El Datalab puede utilizarse de distintas formas según las necesidades de cada persona usuaria. Un grupo limitado con autorización puede acceder a él mediante los **recursos computacionales del Instituto de Física de Cantabria (IFCA, CSIC-UC)**. Para el público general, también está disponible a través de **Binder**, con acceso directo desde este mismo repositorio. Además, quienes prefieran trabajar en su propio equipo pueden clonar el repositorio y ejecutar el entorno **localmente**.  La configuración del entorno está versionada junto con el código, lo que permite reproducir los análisis de forma consistente en distintos equipos e infraestructuras.
+## Modo de uso
 
-## Instalación local
+El Datalab puede utilizarse de distintas formas según las necesidades de cada persona usuaria y los recursos disponibles. Se ofrecen tres modalidades principales de acceso: ejecución en la nube mediante MyBinder, uso de los recursos del IFCA y ejecución local en un equipo propio.
 
-El entorno del DataLab puede ser recreado en un sistema local utilizando el fichero de dependencias que se incluye en el repositorio (`.binder/environment.yml`). Se recomienda el uso de [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) para instalar las dependencias utilizando el siguiente comando:
+| | Modalidad | Requiere instalación local | Requiere autorización | Uso recomendado |
+|---|---|---:|---:|---|
+| 1 | MyBinder | No | No | Exploración rápida y uso general |
+| 2 | IFCA | No | Sí | Trabajo con recursos computacionales restringidos |
+| 3 | Local | Sí | No | Trabajo persistente, desarrollo y adaptación de los análisis |
+
+### 1. Uso libre a través de MyBinder
+
+El Datalab está disponible para el público general a través de **MyBinder**, lo que permite ejecutar los cuadernos directamente desde el navegador sin necesidad de instalar software adicional.
+
+Para utilizar esta opción, basta con pulsar el botón **Binder** disponible al inicio de este README. MyBinder creará un entorno temporal con las dependencias necesarias y abrirá el repositorio en una sesión de JupyterLab.
+
+> **Nota:** las sesiones de MyBinder son temporales. Los cambios realizados durante la sesión pueden perderse al cerrarla, por lo que se recomienda descargar cualquier notebook o resultado que se quiera conservar.
+
+### 2. Uso de los recursos del IFCA
+
+Las personas usuarias con autorización pueden acceder a los **recursos computacionales del Instituto de Física de Cantabria (IFCA, CSIC-UC)**.
+
+Para ello, se puede utilizar el botón **launch IFCA** disponible al inicio de este README. Este enlace redirige al entorno JupyterHub del IFCA y clona automáticamente el repositorio para facilitar el acceso a los cuadernos y materiales del Datalab.
+
+Esta modalidad está pensada para personas o grupos con permisos de acceso al entorno del IFCA y permite trabajar con recursos computacionales más estables.
+
+### 3. Uso local
+
+También es posible ejecutar el Datalab en un equipo propio. Esta opción es recomendable para quienes quieran trabajar de forma persistente, modificar los cuadernos, guardar resultados o adaptar el entorno a sus propias necesidades.
+
+#### Clonar el repositorio
 
 ```bash
-mamba create -n datalab -f .binder/environment.yml
+git clone https://github.com/SantanderMetGroup/PTI-Clima-Datalab.git
+cd PTI-Clima-Datalab
+```
+
+#### Crear el entorno de trabajo
+
+El entorno del Datalab puede recrearse localmente utilizando el fichero de dependencias incluido en el repositorio:
+
+```bash
+.binder/environment.yml
+```
+
+Se recomienda el uso de [mamba](https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html) para instalar las dependencias:
+
+```bash
+mamba env create -n datalab -f .binder/environment.yml
+```
+
+#### Activar el entorno
+
+```bash
+mamba activate datalab
+```
+#### Iniciar JupyterLab
+
+```bash
+jupyter lab
 ```
