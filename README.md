@@ -75,9 +75,10 @@ mamba env create -n datalab -f .binder/environment.yml
 ```bash
 mamba activate datalab
 ```
-#### Iniciar JupyterLab
+#### Instalar e iniciar JupyterLab en el entorno creado
 
 ```bash
+conda install -c conda-forge jupyterlab
 jupyter lab
 ```
 
