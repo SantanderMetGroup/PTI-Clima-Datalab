@@ -9,7 +9,7 @@ El Datalab de la Plataforma Estatal de Servicios Climáticos ([https://plataform
 Los notebooks disponibles pueden consultarse en la sección de **[Notebooks del repositorio](https://github.com/SantanderMetGroup/PTI-Clima-Datalab/tree/main/Notebooks/R)**. Estos proporcionan ejemplos reproducibles para generar algunos de los productos de la Plataforma, incluyendo el cálculo de índices climáticos (véase, por ejemplo, el notebook para el cálculo del [índice SPEI-3](https://github.com/SantanderMetGroup/PTI-Clima-Datalab/blob/main/Notebooks/R/calculo_indices_SPEI-3_R.ipynb)).
 
 
-El DataLab se alinea con desarrollos previous realizados en iniciativas como el [IPCC Alta DataLab](https://doi.org/10.1371/journal.pclm.0000644) y su contenido se distribuye bajo la licencia abierta [CC BY 4.0](http://creativecommons.org/licenses/by/4.0) que permite reutilizar toda la información.
+El DataLab se alinea con desarrollos previous realizados en iniciativas como el [IPCC Atlas DataLab](https://doi.org/10.1371/journal.pclm.0000644) y su contenido se distribuye bajo la licencia abierta [CC BY 4.0](http://creativecommons.org/licenses/by/4.0) que permite reutilizar toda la información.
 
 ![Licencia de Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
