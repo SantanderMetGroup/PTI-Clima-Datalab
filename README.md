@@ -1,53 +1,43 @@
 ![Banner PTI Clima](aux/Banner-logos-PTIClima-ProyectoServiciosAEMET.png)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/SantanderMetGroup/PTI-Clima-Datalab?quickstart=1)
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SantanderMetGroup/PTI-Clima-Datalab/HEAD?labpath=README.md) [![IFCA](https://img.shields.io/badge/launch-IFCA-orange)](https://hub.climate.ifca.es/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FSantanderMetGroup%2FPTI-Clima-Datalab&urlpath=lab%2Ftree%2FPTI-Clima-Datalab%2Fprimeros_pasos_R.ipynb&branch=main)
 
+# DataLab de la Plataforma Estatal de Servicios Climáticos 
 
-# Datalab de la Plataforma Estatal de Servicios Climáticos 
-Datalab para acceder, procesar y analizar los datos climatológicos regionalizados provenientes del almacén de datos de los servicios climáticos desarrollados por la PTI-Clima.
+El Datalab de la Plataforma Estatal de Servicios Climáticos ([https://plataforma-clima.aemet.es](https://plataforma-clima.aemet.es)) complementa el **[almacén de datos](https://pti.climate.ifca.es/almacen-datos) de la Plataforma** proporcionando un entorno abierto para el procesamiento y análisis transparente de datos climáticos. Basado en **Jupyter Notebooks** y con soporte para R y Python, promueve la ciencia abierta, la reproducibilidad y la reutilización de datos y software, facilitando que los resultados del proyecto puedan ser utilizados, revisados y ampliados por la comunidad. 
 
-Los cuadernos (Jupyter Notebooks) incluidos en este Datalab muestran ejemplos prácticos para utilizar, transformar y visualizar los conjuntos de datos disponibles en el [almacén de datos](https://pti.climate.ifca.es/data) de la Plataforma Estatal de Servicios Climáticos.
+El DataLab se alinea con desarrollos previous realizados en iniciativas como el [IPCC Alta DataLab](https://doi.org/10.1371/journal.pclm.0000644) y su contenido se distribuye bajo la licencia abierta [CC BY 4.0](http://creativecommons.org/licenses/by/4.0) que permite reutilizar toda la información.
 
-Salvo que se indique lo contrario, el contenido de este repositorio se distribuye bajo la [Licencia Creative Commons Atribución 4.0 Internacional](http://creativecommons.org/licenses/by/4.0).
 ![Licencia de Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
-## Objetivo y Motivación
+## Infraestructura Disponible y Modos de Uso
 
-El Datalab de la Plataforma Estatal de Servicios Climáticos ofrece un entorno interactivo de análisis diseñado para respaldar la **reproducibilidad**, la **transparencia** y la **reutilización** de los datos que sustentan la [Plataforma Estatal de Servicios Climáticos](https://pti-clima.csic.es/servicios-climaticos/).
-
-A través de una colección de **Jupyter Notebooks** y de un entorno de software preparado para trabajar con **Python** y **R**, permite acceder a datos climáticos regionalizados, procesarlos, visualizarlos y adaptar los análisis a nuevas necesidades. Gracias a esta aproximación, los datos, el código y las herramientas de análisis dejan de ser elementos aislados y pasan a formar parte de un flujo de trabajo común, trazable y reutilizable. De este modo, el Datalab de la Plataforma Estatal de Servicios facilita que los resultados del proyecto puedan ser utilizados, revisados y extendidos en beneficio de la sociedad.
-
-## Modo de uso
-
-El Datalab puede utilizarse de distintas formas según las necesidades de cada persona usuaria y los recursos disponibles. Se ofrecen tres modalidades principales de acceso: ejecución en la nube mediante MyBinder, uso de los recursos del IFCA y ejecución local en un equipo propio.
+Existen distintos modos de uso del DataLab dependiendo del grado de experiencia y del acceso a recursos: 
+- Ejecución en la nube mediante MyBinder, utilizando la infraestructura proporcionada por la inicitiva [MyBinder](https://mybinder.org) que proporcina de forma gratuita recursos limitados. Este modo permite explorar el DataLab y realizar cálculos sencillos que no requieran muchos recursos.
+- Ejecución en la nube en recursos de la Plataforma, utilizando recursos limitados que ofrece la Plataforma a través del CSIC. Este modo ofrece recursos más avanzados pero requiere solicitud de acceso.
+- Ejecución local en un equipo propio, para usuarios avanzados, permitiendo instalar el entorno el local con acceso remoto a los datos.
 
 | | Modalidad | Requiere instalación local | Requiere autorización | Uso recomendado |
 |---|---|---:|---:|---|
 | 1 | MyBinder | No | No | Exploración rápida y uso general |
-| 2 | IFCA | No | Sí | Trabajo con recursos computacionales restringidos |
+| 2 | Plataforma-CSIC | No | Sí | Trabajo con recursos computacionales restringidos |
 | 3 | Local | Sí | No | Trabajo persistente, desarrollo y adaptación de los análisis |
 
 ### 1. Uso libre a través de MyBinder
 
-El Datalab está disponible para el público general a través de **MyBinder**, lo que permite ejecutar los cuadernos directamente desde el navegador sin necesidad de instalar software adicional.
-
-Para utilizar esta opción, basta con pulsar el botón **Binder** disponible al inicio de este README. MyBinder creará un entorno temporal con las dependencias necesarias y abrirá el repositorio en una sesión de JupyterLab.
+El DataLab está disponible para el público general a través de **MyBinder**, lo que permite ejecutar los notebooks directamente desde el navegador sin necesidad de instalar software adicional. Para utilizar esta opción, basta con pulsar el botón **launch binder** disponible al inicio de este README. MyBinder creará un entorno temporal con las dependencias necesarias y abrirá el repositorio en una sesión de JupyterLab (la inicialización del servicio puede llevar unos minutos).
 
 > **Nota:** las sesiones de MyBinder son temporales. Los cambios realizados durante la sesión pueden perderse al cerrarla, por lo que se recomienda descargar cualquier notebook o resultado que se quiera conservar.
 
-### 2. Uso de los recursos del IFCA
+### 2. Uso de los recursos de la Plataforma-CSIC, bajo solicitud de acceso
 
-Las personas usuarias con autorización pueden acceder a los **recursos computacionales del Instituto de Física de Cantabria (IFCA, CSIC-UC)**.
+De forma análoga al caso anterior, el DataLab se puede ejecutar directamente desde un navegador sin necesidad de instalar software adicional a través de los recursos proporcionados por la Plataforma (a través del Instituto de Física de Cantabria, IFCA-CSIC). Estos recursos son limitados y es neceario solicitar acceso en _buzonplataformaclima@aemet.es_, indicando la motivación de uso. El acceso se prioriza en función de los objetivos, priorizando el soporte a proyectos de investigación y actividades de Ciencia Abierta. 
 
-Para ello, se puede utilizar el botón **launch IFCA** disponible al inicio de este README. Este enlace redirige al entorno JupyterHub del IFCA y clona automáticamente el repositorio para facilitar el acceso a los cuadernos y materiales del Datalab.
+Una vez obtenida la autorizacion se puede utilizar el botón **launch IFCA** disponible al inicio de este README. Este enlace redirige al entorno JupyterHub del IFCA y clona automáticamente el repositorio para facilitar el acceso a los cuadernos y materiales del Datalab.
 
-Esta modalidad está pensada para personas o grupos con permisos de acceso al entorno del IFCA y permite trabajar con recursos computacionales más estables.
+### 3. Uso local en un equipo propio
 
-### 3. Uso local
-
-También es posible ejecutar el Datalab en un equipo propio. Esta opción es recomendable para quienes quieran trabajar de forma persistente, modificar los cuadernos, guardar resultados o adaptar el entorno a sus propias necesidades.
+También es posible ejecutar el DataLab en un equipo propio. Esta opción requiere un conocimiento técnico avanzado con experiencia en entornos de desarrollo y es recomendable para quienes quieran trabajar de forma persistente, modificar los notebooks, guardar resultados o adaptar el entorno a sus propias necesidades. Los pasos a seguir para instalar el DataLab en local se detallan a continuación.
 
 #### Clonar el repositorio
 
@@ -58,7 +48,7 @@ cd PTI-Clima-Datalab
 
 #### Crear el entorno de trabajo
 
-El entorno del Datalab puede recrearse localmente utilizando el fichero de dependencias incluido en el repositorio:
+El entorno del DataLab puede recrearse localmente utilizando el fichero de dependencias incluido en el repositorio:
 
 ```bash
 .binder/environment.yml
@@ -75,6 +65,7 @@ mamba env create -n datalab -f .binder/environment.yml
 ```bash
 mamba activate datalab
 ```
+
 #### Instalar e iniciar JupyterLab en el entorno creado
 
 ```bash
@@ -82,7 +73,10 @@ mamba install -c conda-forge jupyterlab
 jupyter lab
 ```
 
-## Entornos de análisis disponibles
+Usuarios avanzados que utilicen GitHub Codespace también pueden lanzar el DataLab en este entorno:
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/SantanderMetGroup/PTI-Clima-Datalab?quickstart=1)
+
+## Entornos de Análisis Disponibles
 
 <p align="left">
   <img src="https://raw.githubusercontent.com/SantanderMetGroup/climate4R/main/man/figures/climate4R_logo.svg" alt="Logo climate4R" width="100">
@@ -90,11 +84,7 @@ jupyter lab
   <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Logo Python" width="240">
 </p>
 
-Los flujos de trabajo incluidos en los notebooks de este Datalab se basan principalmente en el framework ***climate4R***, un conjunto de librerías desarrolladas en **R** para la carga, el postprocesamiento, el análisis y la visualización de datos climáticos.
+Los flujos de trabajo incluidos en los notebooks de este Datalab se basan principalmente en el entorno de programación [climate4R](https://github.com/SantanderMetGroup/climate4R), un conjunto de librerías desarrolladas en **R** para la carga, el postprocesamiento, el análisis y la visualización de datos climáticos.
 
-
-Puede encontrarse más información sobre ***climate4R*** en el siguiente repositorio:
-
-[https://github.com/SantanderMetGroup/climate4R](https://github.com/SantanderMetGroup/climate4R)
 
 Para las personas usuarias que prefieran trabajar con **Python**, el Datalab también dispone de un entorno basado en **Python 3**. No obstante, es importante señalar que, en este caso, el software preinstalado es más básico que el disponible en el entorno de R.
