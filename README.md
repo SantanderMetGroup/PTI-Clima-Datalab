@@ -80,3 +80,20 @@ mamba activate datalab
 ```bash
 jupyter lab
 ```
+
+## Entornos de análisis disponibles
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/SantanderMetGroup/climate4R/main/man/figures/climate4R_logo.svg" alt="Logo climate4R" width="100">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://www.python.org/static/community_logos/python-logo.png" alt="Logo Python" width="240">
+</p>
+
+Los flujos de trabajo incluidos en los notebooks de este Datalab se basan principalmente en el framework ***climate4R***, un conjunto de librerías desarrolladas en **R** para la carga, el postprocesamiento, el análisis y la visualización de datos climáticos.
+
+
+Puede encontrarse más información sobre ***climate4R*** en el siguiente repositorio:
+
+[https://github.com/SantanderMetGroup/climate4R](https://github.com/SantanderMetGroup/climate4R)
+
+Para las personas usuarias que prefieran trabajar con **Python**, el Datalab también dispone de un entorno basado en **Python 3**. No obstante, es importante señalar que, en este caso, el software preinstalado es más básico que el disponible en el entorno de R.
