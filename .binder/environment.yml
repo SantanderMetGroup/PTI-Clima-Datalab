@@ -30,3 +30,4 @@ dependencies:
   - r-devtools
   - r-climate4r.climdex
   - r-drought4r
+  - r-loader.2nc
